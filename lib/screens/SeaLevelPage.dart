@@ -80,10 +80,10 @@ class SeaLevelPage extends StatelessWidget {
                  Text(
                   "Faculty level is higher\nDifference= ${(BarometerCubit
                       .get(context)
-                      .faculty_bottom_air_pressure
+                      .building_bottom_air_pressure
                       ?? 0)-(BarometerCubit
                       .get(context)
-                      .building_bottom_air_pressure
+                      .faculty_bottom_air_pressure
                       ?? 0)} mmHg",
                   style: TextStyle(
                       fontWeight: FontWeight.bold, color: Colors.white),
