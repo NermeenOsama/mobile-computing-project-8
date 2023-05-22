@@ -76,7 +76,7 @@ class BuildingHeightPage extends StatelessWidget {
               Text(
                 "inaccurate readings",
                 style: TextStyle(
-                    fontWeight: FontWeight.bold, color: Colors.white),
+                    fontWeight: FontWeight.bold),
 
               )
             ],
